@@ -16,7 +16,7 @@
   </a>
 </p>
 
-
+https://github.com/dabu3393/Typing-Speed-Test/assets/97137252/3a0c773e-d6fd-4d54-91c9-8be50efb1ac9
 
 
 
