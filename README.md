@@ -23,30 +23,28 @@ https://github.com/dabu3393/Typing-Speed-Test/assets/97137252/3a0c773e-d6fd-4d54
 
 ## Getting Started
 
-The PDF to Audiobook Converter is a user-friendly Python application that enables users to effortlessly transform PDF documents into audio files. It serves as a handy tool for converting text-based content from PDFs into MP3 audio files, effectively creating audiobooks that are accessible on the go.
+The Typing Speed Test is a Python application with a graphical user interface (GUI) designed to help users measure their typing speed and accuracy. It provides a random set of words for users to type as quickly and accurately as possible within a specified time frame.
 
 ## Key Features
 
-- **User-Friendly Interface**: The application offers a simple and intuitive graphical user interface, making it easy for users to select PDF files and convert them into audiobooks with just a few clicks.
+- **Random Word Selection**: The application fetches a set of random words from an online source to keep the test unbiased and challenging.
 
-- **Seamless PDF Selection**: Users can select the PDF file they wish to convert using a built-in file dialog. The chosen PDF file is displayed on the interface for easy reference.
+- **Typing Speed Measurement**: Users can type the provided words, and the application calculates and displays their typing speed in words per minute (WPM).
 
-- **Google Cloud Text-to-Speech**: The converter leverages the power of the Google Cloud Text-to-Speech API to synthesize high-quality audio from the text content extracted from the PDF.
+- **Accuracy Assessment**: The application also checks for typing mistakes and provides information about the accuracy of the user's typing.
 
-- **Customizable Audiobooks**: The application allows users to choose from a variety of voice options, languages, and audio encoding settings to customize their audiobooks according to their preferences.
+- **Time Limit**: The test is time-limited to 60 seconds, after which the typing is evaluated.
 
-- **Download to Local Directory**: The resulting MP3 audiobook is saved in the user's local "Downloads" directory for convenient access.
-
-- **Clear User Feedback**: The application provides clear feedback about the conversion process and displays a success message upon the successful creation of the audiobook.
+- **Restart Option**: Users can restart the test to attempt it again.
 
 ## Usage
 
-1. Open the application.
-2. Click the "Select PDF" button to choose a PDF file for conversion.
-3. Click the "Convert" button to start the conversion process.
-4. The resulting audiobook is saved to your local "Downloads" directory.
+1. Run the typing_speed_test.py script to start the application.
+2. The provided words are displayed on the screen, and the timer starts.
+3. Type the words as quickly and accurately as possible within the 60-second time frame.
+4. Once the time is up, the application displays your typing speed and accuracy.
 
 ## Required Downloads
 I have included a requirements.txt, which you should download in your virtual environment.
 
-[Requirements](https://github.com/dabu3393/Convert-PDF-to-Audiobook/blob/main/requirements.txt)
+[Requirements](https://github.com/dabu3393/Typing-Speed-Test/blob/main/requirements.txt)
